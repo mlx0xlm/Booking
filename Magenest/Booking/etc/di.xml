@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\CustomOptions"
+                type="Magenest\Booking\Ui\DataProvider\Product\Form\Modifier\CustomOptions"/>
+    <preference
+            for="Magento\Catalog\Block\Product\View\Options\Type\Select\Checkable"
+            type="Magenest\Booking\Block\Product\View\Options\Type\Select\Checkable"
+    />  
+</config>
